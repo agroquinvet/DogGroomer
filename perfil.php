@@ -17,7 +17,7 @@
             <!--navbar-->
             <nav  class="navbar navbar-expand-md  ">
                 <div id="nav" class="container-fluid ">
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="home.php">
                         <img  src="img/logofondoblancomaspeque-removebg-preview.png" alt="Bootstrap" width="100" height="35">
                       </a>
                       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacion"><span class="navbar-toggler-icon"></span></button>
@@ -27,7 +27,7 @@
                             <li class="nav-item"><a id="texNav"class="nav-link" href="mascotas.php">Mascotas</a></li>
                             <li class="nav-item"><a id="texNav"class="nav-link" href="turnos.php">Turnos</a></li>
                             <li class="nav-item"><a id="texNav"class="nav-link" href="perfil.php">Perfil</a></li>
-                            <li class="nav-item"><a id="texNav"class="nav-link" href="login.php">logout</a></li>
+                            <li class="nav-item"><a id="texNav"class="nav-link" href="index.php">logout</a></li>
     
                         </ul>
     

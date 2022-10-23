@@ -10,11 +10,11 @@ $resultado=mysqli_query($conexion, $consulta);
 $filas=mysqli_num_rows($resultado);
 
 if($filas){
-    header("location:index.php");
+    header("location:home.php");
 }else{
     ?>
     <?php
-    include("login.php");
+    include("index.php");
     echo "<script>alert('Usted ingreso un dato incorrecto intente nuevamente');</script>";
 }
 mysqli_free_result($resultado);
