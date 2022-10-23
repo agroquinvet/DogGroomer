@@ -9,11 +9,7 @@
     background-image: url(img/huellasfondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-  
-  
-   
-    
+    background-size: cover; 
     
   
 }
@@ -25,8 +21,8 @@
 
 
 .login{
-      
-    left: 40%;  
+    top:20%;
+    left:40% ;    
     margin: 25px 0 0 -25px;
     position: absolute;
     width: 385;
