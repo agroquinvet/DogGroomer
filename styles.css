@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+    
+}
+.body{
+    background-image: url(img/seamless-dog-pattern-with-paw-prints-cat-foots-texture-pattern-with-doggy-pawprints-dog-texture-hand-drawn-illustration-in-doodle-style-on-white-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+  
+   
+    
+    
+  
+}
+
+.navbar{
+    background-color:rgba(224, 184, 24, 0.986);
+    
+}
+
+
+.login{
+      
+    left: 40%;  
+    margin: 25px 0 0 -25px;
+    position: absolute;
+    width: 385;
+    background-color:rgba(53, 52, 48, 0.918);
+    padding: 20px;
+    border-radius: 12px;
+   
+   
+}
+
+
+.login h1{
+    font-size:36px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.login form {
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.login form .form-group{
+    margin-bottom:12px;
+
+}
+
+.login form input[type="submit"]{
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: rgb(216, 160, 40);
+    color: black;
+    border-color: black;
+}
+.texto{
+    color: goldenrod;
+}
+
+.item{
+    color: blue;
+}
