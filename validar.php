@@ -5,7 +5,7 @@ $contraseña=$_POST["contraseña"];
 
 include("db.php");
 $consulta="SELECT*FROM usuarios where nombreUsuario='$usuario' and contraseñaUsuario='$contraseña'";
-$resultado=mysqli_query($conexion, $consulta);
+$resultado=mysqli_query($conn, $consulta);
 
 $filas=mysqli_num_rows($resultado);
 
@@ -18,4 +18,4 @@ if($filas){
     echo "<script>alert('Usted ingreso un dato incorrecto intente nuevamente');</script>";
 }
 mysqli_free_result($resultado);
-mysqli_close($conexion);
+mysqli_close($conn);

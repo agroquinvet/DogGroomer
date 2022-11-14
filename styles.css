@@ -21,8 +21,8 @@
 
 
 .login{
-    top:20%;
-    left:40% ;    
+    top:15%;
+    left:40%;    
     margin: 25px 0 0 -25px;
     position: absolute;
     width: 385;
@@ -63,3 +63,35 @@
     color: goldenrod;
 }
 
+.add{
+   margin-left: 40%;
+  
+}
+.img-thumbnail{
+    margin-left: 30%;
+    margin-top: 30%;
+    width: 250px;
+    
+}
+
+.guardadoOk{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff;
+}
+
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff; 
+
+}
+
+.tituloRegistro{
+    color: gold;
+    text-decoration: line-through;
+}
